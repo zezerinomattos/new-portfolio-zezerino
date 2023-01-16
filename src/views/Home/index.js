@@ -8,7 +8,7 @@ import Navbar from '../../components/Navbar';
 
 // IMAGES
 import imgZeze from '../../assets/HeaderZezerino.png';
-import imgZezeSobre from '../../assets/SobreZezerino.png';
+import imgZezeSobre from '../../assets/SobreZezerinoGrd.png';
 
 export default function Home(){
     return(
@@ -46,8 +46,8 @@ export default function Home(){
                         procurando assim estar em constante evolução e acompanhando
                         atentamente as evoluções da tecnologia no mercado, buscando
                         sempre estar atualizado para superar novos desafios. <br/>
-                        Com conhecimento em linguagens Front-End, como JavaScript, HTML,
-                        CSS, Bootstrap, React e outras. <br/>
+                        Com conhecimento em  Front-End, como HTML, CSS, JavaScript, 
+                        React, TypeScript , Bootstrap, Wordpress  e outras. <br/>
                         Conhecimento em linguagens Back-End como Node.js, Python e Java além de 
                         conhecimento em bancos de dados como MYSQL, PostgresSQL, MongoDB.
                         Como developer conheço e desenvolvi alguns projetos usando todo o poder do Firebase, 
