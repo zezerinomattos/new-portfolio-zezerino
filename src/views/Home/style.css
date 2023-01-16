@@ -15,6 +15,7 @@ div#teste{
     Laranja: #F27405
     Azul: #049DD9
     Verde: #4E7329
+    Cinza: #F2F2EB  #BFBFBF
 }
 TIPOGRAFIA
 font-family: 'Fredericka the Great', cursive;
@@ -214,7 +215,6 @@ section.sobre{
 
 section.sobre div.sobre-esquerda{
     max-width: 50%;
-    
 }
 
 section.sobre div.sobre-esquerda img{
@@ -232,9 +232,6 @@ section.sobre div.sobre-direita{
     justify-content: left;
 
     padding-left: 2rem;
-
-
-    /* background-color: blue; */
 }
 
 section.sobre div.sobre-direita span{
@@ -242,6 +239,7 @@ section.sobre div.sobre-direita span{
     font-family: 'Open Sans', sans-serif;
     font-size: max(12px, .9vw);
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px rgba(173, 173, 173, 0.603);
 }
 
 section.sobre div.sobre-direita h3{
@@ -249,6 +247,7 @@ section.sobre div.sobre-direita h3{
     color: #13182B;
     font-size: max(20px, 1.5vw);
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px rgb(146, 146, 146);
 }
 
 section.sobre div.sobre-direita p{
@@ -257,6 +256,30 @@ section.sobre div.sobre-direita p{
     color: #13182B;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px rgb(189, 189, 189);
+}
+
+section.sobre div.sobre-direita div.sobre-direita-botoes{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.sobre div.sobre-direita div.sobre-direita-botoes a{
+    font-size: max(12px, .9vw);
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #F25C05;
+    padding: 10px 15px;
+    border: solid 1px #F25C05;
+}
+
+section.sobre div.sobre-direita div.sobre-direita-botoes a:hover{
+    opacity: .5;
+}
+
+section.sobre div.sobre-direita div.sobre-direita-botoes a.sobre-botao-portfolio{
+    background-color: #F25C05;
+    color: #FFF;
 }
 
 /* font-family: 'Open Sans', sans-serif;

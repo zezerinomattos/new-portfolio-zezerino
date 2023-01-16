@@ -72,4 +72,8 @@
         max-width: 90%;
         padding-left: 0;
     }
+
+    section.sobre div.sobre-direita div.sobre-direita-botoes{
+        justify-content: center;
+    }
 }

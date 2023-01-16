@@ -33,6 +33,8 @@ export default function Navbar(){
                 <li><a href={urlYouTube} target='blank' className={option === 'youtube' ? 'optionActived' : null} onClick={() => setOption('youtube')}>Canal YouTube</a></li>
                 <li><Link to='curriculo' target='blank' className={option === 'curriculo' ? 'optionActived' : null} onClick={() => setOption('curriculo')} >Curriculo</Link></li>               
                 <li><Link to='contato' className={option === 'contato' ? 'optionActived' : null} onClick={() => setOption('contato')} >Contato</Link></li>
+
+                {actived && <li><Link to='#' className={option === 'portfólio' ? 'optionActived' : null} onClick={() => setOption('portfólio')} >Conheça meu portfólio</Link></li> }
             </ul>
 
             <ul className='menu-humburguer'>
