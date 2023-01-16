@@ -1,0 +1,75 @@
+
+
+/*----------------------------*/
+/*          TABLET            */
+/*----------------------------*/
+
+/*----------------------------*/
+/*          Header    */
+/*----------------------------*/
+
+@media(max-width: 900px){
+    header.container{
+        
+        max-height: 120vh;
+    }
+    
+}
+
+/*---------- DIV MESTRE ----------*/
+@media (max-width: 768px) {
+    header.container div.header-inf-mestre{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    header.container div.header-inf-mestre{
+        margin-top: -40px;
+    }
+}
+
+
+/*---------- Textos -------------*/
+@media (max-width: 768px) {
+    header.container div.header-inf-mestre div.textos{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    header.container div.header-inf-mestre div.textos a{
+        display: none;
+    }
+}
+
+
+/*--------- IMAGEM --------------*/
+
+@media (max-width: 900px) {
+    header.container div.header-inf-mestre div.img-ze{
+        flex-direction: row;
+    }
+}
+
+
+/*----------------------------*/
+/*          SECTION SOBRE     */
+/*----------------------------*/
+
+@media(max-width: 650px){
+    section.sobre{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.sobre div.sobre-esquerda img{
+        margin-bottom: 2rem;
+    }
+
+    section.sobre div.sobre-direita{
+        max-width: 90%;
+        padding-left: 0;
+    }
+}

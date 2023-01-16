@@ -1,0 +1,107 @@
+/*
+CORES
+Azul escuro = #13182B
+Branco = #FFFF
+Azul quem sou = #00082C   #09102B
+div#teste{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0; left: 0;
+    width: 300px;
+    height: 60px;
+    z-index: 10;
+    color: #000;
+    Laranja: #F25C05
+    Laranja: #F27405
+    Azul: #049DD9
+    Verde: #4E7329
+}
+TIPOGRAFIA
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+
+/*----------------------------*/
+/*          TABLET            */
+/*----------------------------*/
+
+@media (max-width: 900px) {
+    nav.container ul.menu-left li a{
+        font-size: 90%;
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    nav.container{
+        justify-content: space-between;
+    }
+
+    nav.container div.img-logo{
+        margin-left: 2.5rem;
+    }
+
+    ul.menu-humburguer{
+        display: flex;
+    }
+
+    nav.container ul.menu-left{
+        width: 80%;
+        height: 85.9vh;
+        flex-direction: column;
+        background: linear-gradient(rgba(4,157,217) 0%, rgba(54,176,224) 45%, rgba(60, 179, 113, .9) 100%);
+        padding-top: .5rem;
+
+        position: absolute;
+        top: 9rem;
+        right: 0;
+        z-index: 999;
+
+        animation-name: mobile;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: backwards;
+
+    }
+
+    nav.container ul.menu-left li{
+        margin: .5rem;
+        margin-left: 1rem;
+    }
+
+    nav.container ul.menu-left li a{
+        font-size: 120%;
+    }
+
+    nav.container ul.active-menu{
+        display: flex;
+    }
+
+    nav.container ul.not-active-menu{
+        display: none;
+    }
+}
+
+
+/*----------------------------*/
+/*          ANIMAÇÕES         */
+/*----------------------------*/
+
+@keyframes mobile {
+    0%{
+        opacity: 0;
+        width: 0;
+        /* height: 0vh; */
+    }
+    60%{
+        opacity: .3;
+        /* width: 50%;
+        height: 70Vh; */
+    }
+    100%{
+        opacity: 1;
+        /* width: 100%; */
+    }
+}
