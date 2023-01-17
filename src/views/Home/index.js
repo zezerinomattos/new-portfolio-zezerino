@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
+import { SkilSpeener } from '../../components/utils';
 
 // IMAGES
 import imgZeze from '../../assets/HeaderZezerino.png';
@@ -73,6 +74,21 @@ export default function Home(){
                     <Link to="#" className='sobre-botao-portfolio' >VEJA MEU PORTFÓLIO</Link>
                     <Link to="#" >DOWNLOAD CV</Link>
                     </div>
+                </div>
+            </section>
+
+            <section className='sills'>
+                <div className='skilss-container'>
+                    <h1>M</h1>
+                    <h2>Minhas Skills</h2>
+                    <hr/>
+                    <div className='skills-container-inferior'>
+                        <SkilSpeener porcentagem={''}/>
+                        <SkilSpeener />
+                    </div>
+
+                       
+
                 </div>
             </section>
         </>

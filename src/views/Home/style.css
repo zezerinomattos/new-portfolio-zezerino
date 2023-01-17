@@ -21,6 +21,8 @@ TIPOGRAFIA
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Pacifico', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
 */
 
 /*----------------------------*/
@@ -282,8 +284,58 @@ section.sobre div.sobre-direita div.sobre-direita-botoes a.sobre-botao-portfolio
     color: #FFF;
 }
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Pacifico', cursive; */
+/*----------------------------*/
+/*          SECTION SKILLS    */
+/*----------------------------*/
 
-/* font-family: 'Fredericka the Great', cursive;
-font-family: 'Josefin Sans', sans-serif; */
+section.sills{
+    width: 100%;
+    background-color: #F2F2EB;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+section.sills div.skilss-container{
+    max-width: 66%;
+    margin: auto;
+}
+
+section.sills div.skilss-container h1{
+    font-size: max(70px, 4vw );
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #13182B;
+    text-shadow: 4px 6px 10px #000;
+    opacity: .4;
+}
+
+section.sills div.skilss-container h2{
+    margin-top: -2.6rem;
+    margin-left: 3px;
+    color: #13182B;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px #000;
+    font-size: max(20px, 2rem);
+    z-index: 999;
+}
+
+section.sills div.skilss-container hr{
+    max-width: max(60px, 4.5vw);
+    height: 2px;
+    background-color: #13182B;
+    margin-left: max(180px, 9vw);
+    border: none;
+
+}
+
+/*----------Div Inferior -----------*/
+
+section.sills div.skilss-container div.skills-container-inferior{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10px;
+}
+

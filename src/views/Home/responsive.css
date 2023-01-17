@@ -77,3 +77,13 @@
         justify-content: center;
     }
 }
+
+/*----------------------------*/
+/*          SECTION SKILL     */
+/*----------------------------*/
+
+@media(max-width: 650px){
+    section.sills div.skilss-container{
+        max-width: 80%;
+    }
+}
