@@ -82,13 +82,21 @@ export default function Home(){
                     <h1>M</h1>
                     <h2>Minhas Skills</h2>
                     <hr/>
-                    <div className='skills-container-inferior'>
-                        <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'}/>
-                        <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
+
+                    <div className='nferior-skills-mestre'>
+                        <div id="inferior-skills-esquerda" className='inferior-skills-esquerda'>
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div className='skills-container-inferior'>
+                            <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'}/>
+                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
+                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
+                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
+                        </div>
+                        <div id="inferior-skills-direita" className='inferior-skills-direita'>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
                     </div>
-
-                       
-
                 </div>
             </section>
         </>

@@ -298,6 +298,8 @@ section.sills{
 section.sills div.skilss-container{
     max-width: 66%;
     margin: auto;
+
+    background-color: blueviolet;
 }
 
 section.sills div.skilss-container h1{
@@ -330,12 +332,34 @@ section.sills div.skilss-container hr{
 
 /*----------Div Inferior -----------*/
 
-section.sills div.skilss-container div.skills-container-inferior{
-    max-width: 100%;
+section.sills div.skilss-container div.nferior-skills-mestre{
+    width: 100%;
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    background-color: #049DD9;
+}
+
+section.sills div.skilss-container div.skills-container-inferior{
+    width: 85%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     margin-top: 50px;
     padding: 10px;
+
+    background-color: brown;
+    overflow: hidden;   
+}
+section.sills div.skilss-container div.nferior-skills-mestre div.inferior-skills-esquerda, div.inferior-skills-direita{
+    width: max(25px, 4vw);
+    background-color: chartreuse;
+}
+
+section.sills div.skilss-container div.nferior-skills-mestre div.inferior-skills-esquerda ion-icon, div.inferior-skills-direita ion-icon{
+    width: 80%;
+    height: 90%;
 }
 

@@ -4,8 +4,17 @@
 /*----------------------------*/
 /*----------Div Inferior speener -----------*/
 
+.html-css-mestre{
+    
+}
+
+
 div.html-css-mestre div.html-css-interna{
     width: max(130px, 7vw);
+    margin-left: 5px;
+    margin-right: 10px;
+
+    background-color: blue;
 }
 
 div.html-css-mestre div.html-css-interna svg.html-css{
