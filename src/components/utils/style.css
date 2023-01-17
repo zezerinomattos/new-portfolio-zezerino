@@ -32,7 +32,7 @@ div.html-css-mestre div.html-css-interna svg.html-css circle:nth-child(1){
 }
 
 div.html-css-mestre div.html-css-interna svg.html-css circle:nth-child(2){
-    stroke-dashoffset: calc(378 - 340.2);
+    /* stroke-dashoffset: calc(378 - 340.2); */
     stroke: #F25C05;
 }
 
@@ -49,9 +49,8 @@ div.html-css-mestre div.html-css-porcento h2{
 
 div.html-css-mestre div.skill{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
-    
 }
 
 div.html-css-mestre div.skill h3{
@@ -60,8 +59,4 @@ div.html-css-mestre div.skill h3{
     text-transform: uppercase;
 }
 
-div.html-css-mestre div.skill h3.barra{
-    margin-left: 5px;
-    margin-right: 5px;
-}
 

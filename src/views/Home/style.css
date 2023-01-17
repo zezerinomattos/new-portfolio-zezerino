@@ -49,7 +49,7 @@ header.container div.header-inf-mestre{
     margin-bottom: 10px;
     
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 

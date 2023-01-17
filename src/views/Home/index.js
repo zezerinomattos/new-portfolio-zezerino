@@ -83,8 +83,8 @@ export default function Home(){
                     <h2>Minhas Skills</h2>
                     <hr/>
                     <div className='skills-container-inferior'>
-                        <SkilSpeener porcentagem={''}/>
-                        <SkilSpeener />
+                        <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'}/>
+                        <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
                     </div>
 
                        
