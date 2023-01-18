@@ -105,21 +105,23 @@ export default function Home(){
                                 <SkilSpeener porcentagem={65} linguagemA={'Firebase'} />
                                 <SkilSpeener porcentagem={50} linguagemA={'Jquery'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'Node.js'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'Wordpress'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'React Native'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'TypeScript'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'Bootstrap'} />
                                 <SkilSpeener porcentagem={80} linguagemA={'Styled comp.'} />
-                                <SkilSpeener porcentagem={65} linguagemA={'UI / UX'} />
+                                <SkilSpeener porcentagem={45} linguagemA={'UI / UX'} />
                                 <SkilSpeener porcentagem={30} linguagemA={'Java'} />
                                 <SkilSpeener porcentagem={35} linguagemA={'Python'} />
-                                <SkilSpeener porcentagem={35} linguagemA={'Celenium'} />
-                                <SkilSpeener porcentagem={35} linguagemA={'Cypress'} />
+                                <SkilSpeener porcentagem={65} linguagemA={'Celenium'} />
+                                <SkilSpeener porcentagem={50} linguagemA={'Cypress'} />
                                 <SkilSpeener porcentagem={50} linguagemA={'MongoDB'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'MYSQL'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'POSTGRESQL'} />
                                 <SkilSpeener porcentagem={20} linguagemA={'Docker'} />
                                 <SkilSpeener porcentagem={25} linguagemA={'AWS'} />
                                 <SkilSpeener porcentagem={20} linguagemA={'Google Cloud'} />
+                                <SkilSpeener porcentagem={80} linguagemA={'Agile Scrum'} />
                                 
                             </motion.div>
                         </motion.div>
