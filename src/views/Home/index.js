@@ -100,19 +100,27 @@ export default function Home(){
                                 initial={{x: 100}} animate={{x: 0}} transition={{duration: 0.8}}                                  
                             >
                                 <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-
-                                <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-
-                                <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={75} linguagemA={'JavaScript'} />
+                                <SkilSpeener porcentagem={80} linguagemA={'React.js'} />
+                                <SkilSpeener porcentagem={65} linguagemA={'Firebase'} />
+                                <SkilSpeener porcentagem={50} linguagemA={'Jquery'} />
+                                <SkilSpeener porcentagem={40} linguagemA={'Node.js'} />
+                                <SkilSpeener porcentagem={40} linguagemA={'React Native'} />
+                                <SkilSpeener porcentagem={40} linguagemA={'TypeScript'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'Bootstrap'} />
+                                <SkilSpeener porcentagem={80} linguagemA={'Styled comp.'} />
+                                <SkilSpeener porcentagem={65} linguagemA={'UI / UX'} />
+                                <SkilSpeener porcentagem={30} linguagemA={'Java'} />
+                                <SkilSpeener porcentagem={35} linguagemA={'Python'} />
+                                <SkilSpeener porcentagem={35} linguagemA={'Celenium'} />
+                                <SkilSpeener porcentagem={35} linguagemA={'Cypress'} />
+                                <SkilSpeener porcentagem={50} linguagemA={'MongoDB'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'MYSQL'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'POSTGRESQL'} />
+                                <SkilSpeener porcentagem={20} linguagemA={'Docker'} />
+                                <SkilSpeener porcentagem={25} linguagemA={'AWS'} />
+                                <SkilSpeener porcentagem={20} linguagemA={'Google Cloud'} />
+                                
                             </motion.div>
                         </motion.div>
                     </div>
