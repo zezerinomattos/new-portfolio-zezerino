@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
+import { motion } from 'framer-motion';
 
 // MY IMPORTS
 import './style.css';
@@ -15,9 +17,17 @@ import imgZeze from '../../assets/HeaderZezerino.png';
 import imgZezeSobre from '../../assets/SobreZezerinoGrd.png';
 
 export default function Home(){
+    const carroselSkill = useRef();
+    const [widthCarroselSkill, setWidthCarroselSkill] = useState(0);
 
     useEffect(() => {
+        setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
+
         Aos.init({duration: 2000});
+
+        // console.log(carroselSkill.current?.scrollWidth, carroselSkill.current?.offsetWidth)
+        
+
     }, []);
 
     return(
@@ -83,20 +93,30 @@ export default function Home(){
                     <h2>Minhas Skills</h2>
                     <hr/>
 
-                    <div className='nferior-skills-mestre'>
-                        <div id="inferior-skills-esquerda" className='inferior-skills-esquerda'>
-                            <ion-icon name="chevron-back-outline"></ion-icon>
-                        </div>
-                        <div className='skills-container-inferior'>
-                            <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'}/>
-                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
-                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
-                            <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'}/>
-                        </div>
-                        <div id="inferior-skills-direita" className='inferior-skills-direita'>
-                            <ion-icon name="chevron-forward-outline"></ion-icon>
-                        </div>
+                    <div className='inferior-skills-mestre' data-aos='flip-up'>
+                        <motion.div ref={carroselSkill} className='skills-corousel-inferior' whileTap={{cursor: 'grabbing'}}>
+                            <motion.div className='inner-carrossel' 
+                                drag='x' dragConstraints={{right: 0, left: -widthCarroselSkill}} 
+                                initial={{x: 100}} animate={{x: 0}} transition={{duration: 0.8}}                                  
+                            >
+                                <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+
+                                <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+
+                                <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                                <SkilSpeener porcentagem={80} linguagemA={'JS'} linguagemB={'React.js'} className='itemSkill'/>
+                            </motion.div>
+                        </motion.div>
                     </div>
+
                 </div>
             </section>
         </>

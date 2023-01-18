@@ -10,11 +10,9 @@
 
 
 div.html-css-mestre div.html-css-interna{
-    width: max(130px, 7vw);
-    margin-left: 5px;
+    width: max(150px, 7vw);
+    margin-left: 10px;
     margin-right: 10px;
-
-    background-color: blue;
 }
 
 div.html-css-mestre div.html-css-interna svg.html-css{
