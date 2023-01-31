@@ -1,0 +1,16 @@
+/*----------------------------*/
+/*  SECTION RECONHECIMENTOS   */
+/*----------------------------*/
+/*------- Animando o container-img --------------*/
+@media (max-width: 760px) {
+    div.container-img:hover{
+        transform: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    div.container-img:active{
+        transform:  scale(1.2);
+        z-index: 2;
+    }
+}

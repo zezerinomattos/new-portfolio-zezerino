@@ -137,18 +137,29 @@ export default function Home(){
             </section>
 
             <section className='reconhecimentos'>
-                <div className='reconhecimentos-container'>
+                <div className='reconhecimentos-textos'>
                     <h2>Reconhecimentos</h2>
                     <hr/>
-                    <h1>R</h1>   
+                    <h1>R</h1>  
+                </div>
 
-                    <div className='inferior-reconhecimento-mestre' data-aos='flip-up'>
-                        <Reconhecimento img={reconhecimento001}/>
-                    </div> 
-
+                <div className='inferior-reconhecimentos-mestre'>
+                    <Reconhecimento img={reconhecimento001}/>
+                    <Reconhecimento img={reconhecimento002}/>
+                    <Reconhecimento img={reconhecimento003}/>
+                    <Reconhecimento img={reconhecimento004}/>
+                    <Reconhecimento img={reconhecimento005}/>
+                    <Reconhecimento img={reconhecimento006}/> 
                 </div>
             </section>
         </>
         
     );
 }
+
+{/* <Reconhecimento img={reconhecimento001}/>
+<Reconhecimento img={reconhecimento002}/>
+<Reconhecimento img={reconhecimento003}/>
+<Reconhecimento img={reconhecimento004}/>
+<Reconhecimento img={reconhecimento005}/>
+<Reconhecimento img={reconhecimento006}/>   */}

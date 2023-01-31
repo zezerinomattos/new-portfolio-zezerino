@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 // MY IMPORTS
 import './style.css';
+import './responsive.css';
 
 // FUNCTION SKILS
 const SkilSpeener = ((props) =>{
@@ -34,9 +38,14 @@ const SkilSpeener = ((props) =>{
 
 // FUNCTION RECONHECIMENTOS
 const Reconhecimento = ((props) => {
+
+    useEffect(() => {       
+        Aos.init({duration: 2000});
+    }, []);
+
     return(
-        <div className='container-img'>
-            <img src={props.img} alt="Imagem de premios de reconhecimento" />
+        <div className='container-img' aria-haspopup="true">
+            <img src={props.img} alt="Imagem de premios de reconhecimento" data-aos='fade-up'/>
         </div>
     );
 })

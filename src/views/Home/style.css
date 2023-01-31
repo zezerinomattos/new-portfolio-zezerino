@@ -368,12 +368,12 @@ section.reconhecimentos{
     margin-top: 40px;
 }
 
-section.reconhecimentos div.reconhecimentos-container{
-    max-width: 66%;
+section.reconhecimentos div.reconhecimentos-textos{
+    max-width: 90%;
     margin: auto;
 }
 
-section.reconhecimentos div.reconhecimentos-container h2{
+section.reconhecimentos div.reconhecimentos-textos h2{
     margin-left: 3px;
     color: #13182B;
     font-weight: bold;
@@ -382,7 +382,7 @@ section.reconhecimentos div.reconhecimentos-container h2{
     z-index: 999;
 }
 
-section.reconhecimentos div.reconhecimentos-container h1{
+section.reconhecimentos div.reconhecimentos-textos h1{
     font-size: max(70px, 4vw );
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -392,10 +392,26 @@ section.reconhecimentos div.reconhecimentos-container h1{
     margin-top: -1.5rem;
 }
 
-section.reconhecimentos div.reconhecimentos-container hr{
+section.reconhecimentos div.reconhecimentos-textos hr{
     max-width: max(60px, 4.5vw);
     height: 2px;
     background-color: #13182B;
     margin-left: max(250px, 13vw);
     border: none;
 }
+
+/*----------Div Inferior -----------*/
+
+section.reconhecimentos div.inferior-reconhecimentos-mestre{
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #F25C05; */
+}
+
