@@ -24,10 +24,7 @@ export default function Home(){
         setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
 
         Aos.init({duration: 2000});
-
-        // console.log(carroselSkill.current?.scrollWidth, carroselSkill.current?.offsetWidth)
-        
-
+        // console.log(carroselSkill.current?.scrollWidth, carroselSkill.current?.offsetWidth)image.png
     }, []);
 
     return(
@@ -128,6 +125,12 @@ export default function Home(){
                     </div>
 
                 </div>
+            </section>
+
+            <section className='reconhecimentos'>
+                <h2>Reconhecimentos</h2>
+                <h1>M</h1>
+                <hr/>
             </section>
         </>
         
