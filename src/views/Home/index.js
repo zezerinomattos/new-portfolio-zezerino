@@ -10,11 +10,20 @@ import { motion } from 'framer-motion';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
-import { SkilSpeener } from '../../components/utils';
+import { SkilSpeener, Reconhecimento } from '../../components/utils';
 
 // IMAGES
 import imgZeze from '../../assets/HeaderZezerino.png';
 import imgZezeSobre from '../../assets/SobreZezerinoGrd.png';
+
+// MY IMAGES RECONHECIMENTOS
+import reconhecimento001 from '../../assets/reconhecimento-desempenho-inspirador.PNG';
+import reconhecimento002 from '../../assets/reconhecimento-shampions.PNG';
+import reconhecimento003 from '../../assets/reconhecimento-sempre-se-comunicando.PNG';
+import reconhecimento004 from '../../assets/reconhecimento-fazer-mais-c-menos.png';
+import reconhecimento005 from '../../assets/reconhecimento-construindo-confianca.PNG';
+import reconhecimento006 from '../../assets/reconhecimento-prazer-trabalhar-com-vc.PNG';
+
 
 export default function Home(){
     const carroselSkill = useRef();
@@ -132,8 +141,11 @@ export default function Home(){
                     <h2>Reconhecimentos</h2>
                     <hr/>
                     <h1>R</h1>   
-                    
-                                    
+
+                    <div className='inferior-reconhecimento-mestre' data-aos='flip-up'>
+                        <Reconhecimento img={reconhecimento001}/>
+                    </div> 
+
                 </div>
             </section>
         </>

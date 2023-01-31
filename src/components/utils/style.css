@@ -4,10 +4,6 @@
 /*----------------------------*/
 /*----------Div Inferior speener -----------*/
 
-.html-css-mestre{
-    
-}
-
 
 div.html-css-mestre div.html-css-interna{
     width: max(150px, 7vw);
@@ -67,3 +63,16 @@ div.html-css-mestre div.skill h3{
 }
 
 
+/*----------------------------*/
+/*  SECTION RECONHECIMENTOS   */
+/*----------------------------*/
+div.container-img{
+    max-width: 750px;
+    margin: 3rem auto;
+    /* margin-top: 3rem; */
+}
+
+div.container-img img{
+    max-width: 100%;
+    box-shadow: 4px 4px 6px #000;
+}

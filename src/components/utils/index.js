@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // MY IMPORTS
 import './style.css';
 
+// FUNCTION SKILS
 const SkilSpeener = ((props) =>{
 
     const porcentagem = (() => { 
@@ -28,6 +29,16 @@ const SkilSpeener = ((props) =>{
             </div>
         </div>
     );
+});
+
+
+// FUNCTION RECONHECIMENTOS
+const Reconhecimento = ((props) => {
+    return(
+        <div className='container-img'>
+            <img src={props.img} alt="Imagem de premios de reconhecimento" />
+        </div>
+    );
 })
 
-export {SkilSpeener}
+export { SkilSpeener, Reconhecimento }
