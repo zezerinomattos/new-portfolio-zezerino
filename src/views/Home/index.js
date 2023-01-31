@@ -128,9 +128,13 @@ export default function Home(){
             </section>
 
             <section className='reconhecimentos'>
-                <h2>Reconhecimentos</h2>
-                <h1>M</h1>
-                <hr/>
+                <div className='reconhecimentos-container'>
+                    <h2>Reconhecimentos</h2>
+                    <hr/>
+                    <h1>R</h1>   
+                    
+                                    
+                </div>
             </section>
         </>
         

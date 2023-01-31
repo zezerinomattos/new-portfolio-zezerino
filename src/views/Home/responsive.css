@@ -88,3 +88,13 @@
     }
     
 }
+
+/*----------------------------*/
+/*  SECTION RECONHECIMENTOS   */
+/*----------------------------*/
+@media(max-width: 650px){
+    section.reconhecimentos div.reconhecimentos-container{
+        max-width: 95%;
+    }
+    
+}
