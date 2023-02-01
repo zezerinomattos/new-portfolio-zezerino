@@ -504,7 +504,35 @@ section.portfolio a{
     text-transform: uppercase;
 }
 
+section.portfolio a.animation{
+    animation-name: btnPortfolio;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+}
+
 section.portfolio a:hover{
-    opacity: .5;
     transform:  scale(1.1);
+    animation: none;
+    background-color: #F25C05;
+}
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+/*----------------------------*/
+/*          ANIMAÇÕES         */
+/*----------------------------*/
+
+/*---------- PORTFÓLIO -----------*/
+@keyframes btnPortfolio {
+    0%{
+        background-color: #d44f03;
+    }
+    50%{
+        background-color: #f39039;
+    }
+    
+    100%{
+        background-color: #d44f03;
+    }
 }

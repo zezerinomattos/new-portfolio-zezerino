@@ -178,7 +178,7 @@ export default function Home(){
                     </div>
                 </div>
                 
-                <Link to=''>CONHEÇA MAIS PROJETOS</Link>
+                <Link to='/portfolio' className='animation'>CONHEÇA MAIS PROJETOS</Link>                
             </section>
         </>
         
