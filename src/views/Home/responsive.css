@@ -98,3 +98,13 @@
     }
     
 }
+
+/*----------------------------*/
+/*     SECTION PORTFÓLIO      */
+/*----------------------------*/
+@media(max-width: 1600px){
+    section.portfolio div.portfolio-container div.portfolio-texto{
+        max-width: 90%;
+        padding-left: 0;
+    }
+}

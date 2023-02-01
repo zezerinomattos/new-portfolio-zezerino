@@ -14,6 +14,8 @@ import { SkilSpeener, Reconhecimento } from '../../components/utils';
 
 // IMAGES
 import imgZeze from '../../assets/HeaderZezerino.png';
+
+// MY IMAGES SOBRE
 import imgZezeSobre from '../../assets/SobreZezerinoGrd.png';
 
 // MY IMAGES RECONHECIMENTOS
@@ -24,6 +26,8 @@ import reconhecimento004 from '../../assets/reconhecimento-fazer-mais-c-menos.pn
 import reconhecimento005 from '../../assets/reconhecimento-construindo-confianca.PNG';
 import reconhecimento006 from '../../assets/reconhecimento-prazer-trabalhar-com-vc.PNG';
 
+// MY IMAGES PORTFÓLIO
+import imgPortfolio from '../../assets/portfolio-home-001.png';
 
 export default function Home(){
     const carroselSkill = useRef();
@@ -152,14 +156,31 @@ export default function Home(){
                     <Reconhecimento img={reconhecimento006}/> 
                 </div>
             </section>
+
+            <section className='portfolio'>
+                <div className='portfolio-container'>
+                    <div className='portfolio-imagem'>
+                        <img src={imgPortfolio} alt="Imagem de Portfólio"/>
+                    </div>
+                    <div className='portfolio-texto'>
+                        <span>Portfólio</span>
+                        <h3>"Não há projeto sem disciplina. <br/> Não há disciplina sem inteligência"</h3>
+                        <p>
+                            Te convido a conhecer um pouco do meu trabalho através de alguns projetos que trago para ilustrar meu portfólio, aqui vou apresentar apenas alguns, mas tenho mais de 40 projetos em meu repositório sendo quase 30 deles com status de público. <br/>
+
+                            Aqui vou trazer apenas projetos front-end e full stack, pois preciso apresentar algo visual e por esse motivo não vou trazer projetos back-end. Também não vou trazer layout feitos com o Figma ou AdobeXD, pois a ideia aqui é apresentar projetos codados e não seus protótipos. <br/>
+
+                            Com tudo deixo aqui um LINK que vai lhe direcionar para o meu repositório no GitHub e também deixo aqui na seção um botão o qual ira apresentar mais alguns de meus projetos.<br/> <br/>
+
+                            BEM VINDO!
+
+                        </p>
+                    </div>
+                </div>
+                
+                <Link to=''>CONHEÇA MAIS PROJETOS</Link>
+            </section>
         </>
         
     );
 }
-
-{/* <Reconhecimento img={reconhecimento001}/>
-<Reconhecimento img={reconhecimento002}/>
-<Reconhecimento img={reconhecimento003}/>
-<Reconhecimento img={reconhecimento004}/>
-<Reconhecimento img={reconhecimento005}/>
-<Reconhecimento img={reconhecimento006}/>   */}

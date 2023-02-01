@@ -415,3 +415,96 @@ section.reconhecimentos div.inferior-reconhecimentos-mestre{
     /* background-color: #F25C05; */
 }
 
+/*----------------------------*/
+/*     SECTION PORTFÓLIO      */
+/*----------------------------*/
+
+section.portfolio{
+    width: 100%;
+    background-color: #13182B;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.portfolio div.portfolio-container{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------Div Imagem -----------*/
+section.portfolio div.portfolio-container div.portfolio-imagem{
+    max-width: 715px;
+    margin-bottom: 2rem;
+}
+
+section.portfolio div.portfolio-container div.portfolio-imagem img{
+    max-width: 100%;
+}
+
+/*----------Div Texto -----------*/
+section.portfolio div.portfolio-container div.portfolio-texto{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    padding-left: 2rem;
+}
+
+section.portfolio div.portfolio-container div.portfolio-texto span{
+    color: #049DD9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: max(12px, 1.5vw);
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+section.portfolio div.portfolio-container div.portfolio-texto h3{
+    font-family: 'EB Garamond', serif;
+    color: #FFF;
+    font-size: max(20px, 1.5vw);
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+section.portfolio div.portfolio-container div.portfolio-texto p{
+    max-width: 850px;
+    font-size: max(12px, .9vw);
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+
+/*---------- Botão -----------*/
+section.portfolio a{
+    text-decoration: none;
+    padding: 1.5vw 4.5vw;
+    background-color: #F25C05;
+    margin-top: 6rem;
+    border-radius: 30px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: max(18px, 1.5vw); 
+    margin-bottom: 40px; 
+
+    transition: .5s ease-out;
+    text-transform: uppercase;
+}
+
+section.portfolio a:hover{
+    opacity: .5;
+    transform:  scale(1.1);
+}
