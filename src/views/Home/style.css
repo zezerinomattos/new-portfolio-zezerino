@@ -489,11 +489,11 @@ section.portfolio div.portfolio-container div.portfolio-texto p{
 
 
 /*---------- Botão -----------*/
-section.portfolio a{
+section.portfolio a.portfolio{
     text-decoration: none;
-    padding: 1.5vw 4.5vw;
+    padding: 1.2rem 4.5rem;
     background-color: #F25C05;
-    margin-top: 6rem;
+    margin-top: 3rem;
     border-radius: 30px;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
@@ -510,7 +510,7 @@ section.portfolio a.animation{
     animation-iteration-count: infinite;
 }
 
-section.portfolio a:hover{
+section.portfolio a.portfolio:hover{
     transform:  scale(1.1);
     animation: none;
     background-color: #F25C05;

@@ -11,6 +11,7 @@ import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
 import { SkilSpeener, Reconhecimento } from '../../components/utils';
+import LinksPortfolio from '../../components/LinksPortfolio';
 
 // IMAGES
 import imgZeze from '../../assets/HeaderZezerino.png';
@@ -32,6 +33,8 @@ import imgPortfolio from '../../assets/portfolio-home-001.png';
 export default function Home(){
     const carroselSkill = useRef();
     const [widthCarroselSkill, setWidthCarroselSkill] = useState(0);
+
+    const urlLinkPortfolio = 'https://github.com/zezerinomattos';
 
     useEffect(() => {
         setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
@@ -166,7 +169,7 @@ export default function Home(){
                         <span>Portfólio</span>
                         <h3>"Não há projeto sem disciplina. <br/> Não há disciplina sem inteligência"</h3>
                         <p>
-                            Te convido a conhecer um pouco do meu trabalho através de alguns projetos que trago para ilustrar meu portfólio, aqui vou apresentar apenas alguns, mas tenho mais de 40 projetos em meu repositório sendo quase 30 deles com status de público. <br/>
+                            Te convido a conhecer um pouco do meu trabalho através de projetos que trago para ilustrar meu portfólio, aqui vou apresentar apenas alguns, mas tenho mais de 40 projetos em meu repositório, sendo quase 30 deles com status de público. <br/>
 
                             Aqui vou trazer apenas projetos front-end e full stack, pois preciso apresentar algo visual e por esse motivo não vou trazer projetos back-end. Também não vou trazer layout feitos com o Figma ou AdobeXD, pois a ideia aqui é apresentar projetos codados e não seus protótipos. <br/>
 
@@ -178,7 +181,9 @@ export default function Home(){
                     </div>
                 </div>
                 
-                <Link to='/portfolio' className='animation'>CONHEÇA MAIS PROJETOS</Link>                
+                <LinksPortfolio url={urlLinkPortfolio}/>
+
+                <Link to='/portfolio' className='portfolio animation'>CONHEÇA MAIS PROJETOS</Link>                
             </section>
         </>
         

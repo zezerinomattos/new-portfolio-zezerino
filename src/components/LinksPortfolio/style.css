@@ -1,0 +1,54 @@
+div.container{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+div.container div.container-mestre{
+    width: 83%;
+    margin: auto;
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container div.container-mestre div.imagem{
+    max-width: 300px;
+    min-width: 250px;
+}
+
+div.container div.container-mestre div.imagem img{
+    max-width: 100%;
+}
+
+div.container div.container-mestre div.card-informacoes{
+    margin-left: 2rem;
+}
+
+div.container div.container-mestre div.card-informacoes h5{
+    margin-bottom: 1rem;
+    font-size: max(15px, 1.3vw);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 2px #000;
+}
+
+div.container div.container-mestre div.card-informacoes p{
+    max-width: 500px;
+    font-size: max(12px, 1vw);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #000;
+}
+
+div.container div.container-mestre div.card-informacoes a.btn-link{
+    color: #049DD9;
+    text-decoration: none;
+    font-size: max(13px, 1.1vw);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146);
+}
