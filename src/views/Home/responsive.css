@@ -109,3 +109,13 @@
     }
 }
 
+/*----------------------------*/
+/*     SECTION CANAL      */
+/*----------------------------*/
+@media(max-width: 625px){
+    section.canal-youtube div.canal-superior div.superior-title{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+

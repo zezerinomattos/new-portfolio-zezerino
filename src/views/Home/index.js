@@ -30,6 +30,10 @@ import reconhecimento006 from '../../assets/reconhecimento-prazer-trabalhar-com-
 // MY IMAGES PORTFÓLIO
 import imgPortfolio from '../../assets/portfolio-home-001.png';
 
+// MY IMAGES CANAL YOUTUBE
+import LogoYoutube from '../../assets/CanalYoutube.png';
+
+
 export default function Home(){
     const carroselSkill = useRef();
     const [widthCarroselSkill, setWidthCarroselSkill] = useState(0);
@@ -184,6 +188,29 @@ export default function Home(){
                 <LinksPortfolio url={urlLinkPortfolio}/>
 
                 <Link to='/portfolio' className='portfolio animation'>CONHEÇA MAIS PROJETOS</Link>                
+            </section>
+
+            <section className="canal-youtube">
+                <div className='canal-superior'>
+                    <div className='superior-title'>
+                        <h1>CANAL YOUTUBE</h1>
+                        <h3>DICAS & INFORMAÇÕES IMPORTANTES</h3>
+                    </div>
+                    <div className='superior-inscricao'>
+                        <div className='inscricao-container'>
+                            <div className='inscricao-texto'>
+                                <span>INSCREVA-SE NO CANAL</span>
+                                <a href="https://www.youtube.com/@vocenaoeoprimeiro" target='blank'>YOUTUBE.COM/ZMATTOS</a>
+                            </div>
+                            <div className='logo-youtube'>
+                                <img src={LogoYoutube} alt="Logo do YouTube" />
+                            </div>
+                        </div>
+                        <a className='btn' href="https://www.youtube.com/@vocenaoeoprimeiro" target='blank' >INSCREVER AGORA</a>
+                    </div>
+                </div>
+
+                
             </section>
         </>
         

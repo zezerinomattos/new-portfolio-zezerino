@@ -48,6 +48,6 @@ const Reconhecimento = ((props) => {
             <img src={props.img} alt="Imagem de premios de reconhecimento" data-aos='fade-up'/>
         </div>
     );
-})
+});
 
 export { SkilSpeener, Reconhecimento }
