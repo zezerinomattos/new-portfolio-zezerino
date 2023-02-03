@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
-import { SkilSpeener, Reconhecimento } from '../../components/utils';
+import { SkilSpeener, Reconhecimento, PreviewCanalYoutube } from '../../components/utils';
 import LinksPortfolio from '../../components/LinksPortfolio';
 
 // IMAGES
@@ -38,7 +38,16 @@ export default function Home(){
     const carroselSkill = useRef();
     const [widthCarroselSkill, setWidthCarroselSkill] = useState(0);
 
+    //URL PORTFOLIO
     const urlLinkPortfolio = 'https://github.com/zezerinomattos';
+
+    //URL CANAL YOUTUBE
+    const dbUrls = [
+        'https://www.youtube.com/watch?v=bHfd_2FuN6s&t=50s',
+        'https://www.youtube.com/watch?v=iJjrWyyLUGA&t=91s',
+        'https://www.youtube.com/watch?v=wfOyNFMs2HI&t=103s'
+    ];
+
 
     useEffect(() => {
         setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
@@ -210,7 +219,9 @@ export default function Home(){
                     </div>
                 </div>
 
-                
+                <div className='canal-inferior'>
+                    {dbUrls.map(item => <PreviewCanalYoutube url={item} />)}
+                </div>
             </section>
         </>
         

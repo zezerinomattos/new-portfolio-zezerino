@@ -651,5 +651,12 @@ section.canal-youtube div.canal-superior div.superior-inscricao a.btn:hover{
 
 /*---------- DIV INFERIOR -----------*/
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Pacifico', cursive; */
+section.canal-youtube div.canal-inferior{
+    width: 95%;
+    margin: auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
