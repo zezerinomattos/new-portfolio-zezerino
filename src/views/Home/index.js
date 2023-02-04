@@ -43,11 +43,10 @@ export default function Home(){
 
     //URL CANAL YOUTUBE
     const dbUrls = [
-        'https://www.youtube.com/watch?v=bHfd_2FuN6s&t=50s',
-        'https://www.youtube.com/watch?v=iJjrWyyLUGA&t=91s',
-        'https://www.youtube.com/watch?v=wfOyNFMs2HI&t=103s'
+        "https://www.youtube.com/embed/wfOyNFMs2HI",
+        "https://www.youtube.com/embed/iJjrWyyLUGA",
+        "https://www.youtube.com/embed/bHfd_2FuN6s",     
     ];
-
 
     useEffect(() => {
         setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
@@ -220,7 +219,7 @@ export default function Home(){
                 </div>
 
                 <div className='canal-inferior'>
-                    {dbUrls.map(item => <PreviewCanalYoutube url={item} />)}
+                    {dbUrls.map(item => <PreviewCanalYoutube key={item} url={item} />)}
                 </div>
             </section>
         </>

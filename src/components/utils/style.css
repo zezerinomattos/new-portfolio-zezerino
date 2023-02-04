@@ -104,101 +104,38 @@ div.container-img img{
 /*----------------------------*/
 
 div.canal-container{
-    max-width: 400px;
+    width: 500px;
     margin: 2rem auto;
 }
 
 div.canal-container div.container-mestre{
     max-width: 100%;
     margin: auto;
-    background-color: #FFF;
     padding-top: 20px;
     padding-bottom: 20px;
-
-    align-items: center;
-}
-
-div.canal-container div.container-mestre div.imagem{
-    width: 400px;
-    min-width: 350px;  
-    display: flex;
-    justify-content: center;
-}
-
-div.canal-container div.container-mestre div.imagem img{
-    max-width: 100%;
-    min-width: 100%;
-    border: 1px solid #00082C;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom: none;
-}
-
-div.canal-container div.container-mestre div.card-informacoes{
-    padding: 5px;
     position: relative;
 }
 
-/*          Efeito Papel           */
-div.canal-container div.container-mestre div.card-informacoes::before{
+div.canal-container div.container-mestre::before{
     position: absolute;
-    right: 3px;
-    top: 80%;
-    bottom: -10px;
+    right: 5px;
+    top: 50%;
+    bottom: 30px;
     width: 50%;
     background-color: rgb(73, 72, 72);
     box-shadow: 0px 15px 10px rgb(59, 58, 58);
     transform: rotate(3deg);
     content: "";
     z-index: -1;
+}
+
+div.canal-container div.container-mestre iframe{
+    width: 100%; 
+    height: 300px;
+    border: 1px solid #00082C;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
     
-}
-
-
-div.canal-container div.container-mestre div.card-informacoes h5{
-    margin-bottom: 1rem;
-    font-size: max(15px, 1.1vw);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    text-shadow: 1px 1px 2px #000;
-}
-
-div.canal-container div.container-mestre div.card-informacoes p{
-    max-width: 450px;
-    font-size: max(12px, .8vw);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px #000;
-}
-
-div.canal-container div.container-mestre div.card-informacoes a.btn-link-canal{
-    color: #049DD9;
-    text-decoration: none;
-    font-size: max(13px, 1.1vw);
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 2px rgb(146, 146, 146);
-}
-/*----------------------------*/
-/*          ANIMAÇÕES         */
-/*----------------------------*/
-
-div.canal-container div.container-mestre div.card-informacoes a.animation-canal{
-    animation-name: linkCanal;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-
-/*---------- CANAL YOUTUBE -----------*/
-@keyframes linkCanal {
-    0%{
-        color: #049DD9;
-    }
-    50%{
-        color: #025c80;
-    }
-    
-    100%{
-        color: #049DD9;
-    }
 }
