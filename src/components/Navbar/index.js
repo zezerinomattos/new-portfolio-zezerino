@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Link as Links, animateScroll as scroll } from "react-scroll";
@@ -36,7 +36,7 @@ export default function Navbar(){
                 <li><Link to='curriculo' target='blank' className={option === 'curriculo' ? 'optionActived' : null} onClick={() => setOption('curriculo')} >Curriculo</Link></li>               
                 <li><Link to='contato' className={option === 'contato' ? 'optionActived' : null} onClick={() => setOption('contato')} >Contato</Link></li>
 
-                {actived && <li><Link to='#' className={option === 'portfólio' ? 'optionActived' : null} onClick={() => setOption('portfólio')} >Conheça meu portfólio</Link></li> }
+                {actived && <li><Link to='#' className={option === 'portfolio' ? 'optionActived' : null} onClick={() => setOption('portfolio')} >Conheça meu portfólio</Link></li> }
             </ul>
 
             <ul className='menu-humburguer'>

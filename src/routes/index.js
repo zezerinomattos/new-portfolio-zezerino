@@ -11,6 +11,8 @@ export default function RoutesApp(){
             <Routes >
                 <Route path='/' element={ <Home /> } />
                 <Route path='/contato' element={<Contato />} />
+
+                <Route path='*' element={<Home /> } />
             </Routes>
         </BrowserRouter>
     )
