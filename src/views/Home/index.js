@@ -205,7 +205,7 @@ export default function Home(){
                         <h1>CANAL YOUTUBE</h1>
                         <h3>DICAS & INFORMAÇÕES IMPORTANTES</h3>
                     </div>
-                    <div className='superior-inscricao'>
+                    <div className='superior-inscricao' data-aos='flip-up'>
                         <div className='inscricao-container'>
                             <div className='inscricao-texto'>
                                 <span>INSCREVA-SE NO CANAL</span>
@@ -219,7 +219,7 @@ export default function Home(){
                     </div>
                 </div>
 
-                <div className='canal-inferior'>
+                <div className='canal-inferior' data-aos='fade-up'>
                     {dbUrls.map(item => <PreviewCanalYoutube key={item} url={item} />)}
                 </div>
             </section>
