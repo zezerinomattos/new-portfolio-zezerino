@@ -8,14 +8,6 @@
 /*          Header    */
 /*----------------------------*/
 
-@media(max-width: 900px){
-    header.container{
-        
-        max-height: 120vh;
-    }
-    
-}
-
 /*---------- DIV MESTRE ----------*/
 @media (max-width: 768px) {
     header.container div.header-inf-mestre{
