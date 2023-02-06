@@ -24,6 +24,7 @@ footer div.container-superior{
     justify-content: center;
 }
 
+
 footer div.container-superior hr{
     width: 70%;
     height: 2px;
@@ -31,6 +32,7 @@ footer div.container-superior hr{
     background-color: #F25C05;
     margin-left: 2rem;
 }
+
 
 footer div.img-logo{
     max-width: 100px;

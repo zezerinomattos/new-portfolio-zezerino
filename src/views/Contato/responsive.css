@@ -1,0 +1,30 @@
+/*----------------------------*/
+/*          TABLET            */
+/*----------------------------*/
+
+@media(max-width: 1400px){
+    div.mestre{
+        height: 100%;
+    }
+    div.mestre section.container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.mestre section.container div.contato-dir{
+        margin-left: 1rem;
+    }
+
+    /*          DIV REDES         */
+
+    div.mestre section.container div.contato-esq{
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+    }
+
+    div.mestre section.container div.contato-esq ul{
+        margin-left: 10px;
+        height: 300px;
+    }
+}
