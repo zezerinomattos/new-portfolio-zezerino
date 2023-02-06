@@ -58,7 +58,7 @@ const PreviewCanalYoutube = ((props) => {
     return(
       <div className="canal-container">
         <div className="container-mestre">
-          <iframe src={props.url}    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          <iframe src={props.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
         </div>
       </div>

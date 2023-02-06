@@ -10,6 +10,7 @@ import { motion } from 'framer-motion';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 import { SkilSpeener, Reconhecimento, PreviewCanalYoutube } from '../../components/utils';
 import LinksPortfolio from '../../components/LinksPortfolio';
 
@@ -62,7 +63,7 @@ export default function Home(){
                 <div className='header-inf-mestre'>
                     <div className='textos'>
                         <h1>Zezerino Mattos</h1>
-                        <h2>Full Stack Developer</h2>
+                        <h2>Front-End Developer</h2>
 
                         <Link to="#" >Conheça meu portfólio profissional</Link>
                     </div>
@@ -82,7 +83,7 @@ export default function Home(){
                 <div className='sobre-direita'>
                     <span>Sobre mim</span>
                     <h3>Por que me contratar para o seu <br/> próximo projeto?</h3>
-                    <span>QA | Full Stack Developer</span>
+                    <span>Front-End Developer | QA</span>
                     <p>
                         Extremamente motivado, em constante desenvolvimento de minhas
                         habilidades e crescimento profissional.
@@ -222,6 +223,8 @@ export default function Home(){
                     {dbUrls.map(item => <PreviewCanalYoutube key={item} url={item} />)}
                 </div>
             </section>
+
+            <Footer />
         </>
         
     );
