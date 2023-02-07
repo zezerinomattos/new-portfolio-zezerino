@@ -12,6 +12,7 @@ export default function RoutesApp(){
             <Routes >
                 <Route path='/' element={ <Home /> } />
                 <Route path='/contato' element={<Contato />} />
+                <Route path='/contato/curriculo' element={<Curriculo />} />
                 <Route path='/curriculo' element={<Curriculo />} />
 
                 <Route path='*' element={<Home /> } />
