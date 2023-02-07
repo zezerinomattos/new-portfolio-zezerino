@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 import { motion } from 'framer-motion';
 
-import { Link as Links, animateScroll as scroll } from "react-scroll";
+import { Link as Links } from "react-scroll";
 
 // MY IMPORTS
 import './style.css';
