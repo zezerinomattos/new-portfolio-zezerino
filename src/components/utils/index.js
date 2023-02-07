@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 import './style.css';
 import './responsive.css';
 
+/*----------------------------------------------------*/
+
 // FUNCTION SKILS
 const SkilSpeener = ((props) =>{
 
@@ -34,8 +36,6 @@ const SkilSpeener = ((props) =>{
     );
 });
 
-
-
 /*----------------------------------------------------*/
 
 // FUNCTION RECONHECIMENTOS
@@ -51,6 +51,8 @@ const Reconhecimento = ((props) => {
         </div>
     );
 });
+
+/*----------------------------------------------------*/
 
 // FUNCTION RECONHECIMENTOS    
 

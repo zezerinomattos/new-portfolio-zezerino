@@ -36,6 +36,7 @@ import LogoYoutube from '../../assets/CanalYoutube.png';
 
 
 export default function Home(){
+
     const carroselSkill = useRef();
     const [widthCarroselSkill, setWidthCarroselSkill] = useState(0);
 
