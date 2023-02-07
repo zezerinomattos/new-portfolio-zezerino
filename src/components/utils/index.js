@@ -54,7 +54,7 @@ const Reconhecimento = ((props) => {
 
 /*----------------------------------------------------*/
 
-// FUNCTION RECONHECIMENTOS    
+// FUNCTION YOUTUBE  
 
 const PreviewCanalYoutube = ((props) => {
     return(

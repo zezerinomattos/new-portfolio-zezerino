@@ -431,6 +431,7 @@ section.portfolio{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 section.portfolio div.portfolio-container{
@@ -517,6 +518,7 @@ section.portfolio a.portfolio:hover{
     animation: none;
     background-color: #F25C05;
 }
+
 
 /*------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------*/

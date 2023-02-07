@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 
 import { motion } from 'framer-motion';
 
+import { Link as Links, animateScroll as scroll } from "react-scroll";
+
 // MY IMPORTS
 import './style.css';
 import './responsive.css';
@@ -66,7 +68,7 @@ export default function Home(){
                         <h1>Zezerino Mattos</h1>
                         <h2>Front-End Developer</h2>
 
-                        <Link to="#" >Conheça meu portfólio profissional</Link>
+                        <Link to="/portfolio" >Conheça meu portfólio profissional</Link>
                     </div>
                     
                     <div className='img-ze image-block'>
@@ -108,8 +110,8 @@ export default function Home(){
 
                     </p>
                     <div className='sobre-direita-botoes'>
-                    <Link to="#" className='sobre-botao-portfolio' >VEJA MEU PORTFÓLIO</Link>
-                    <Link to="#" >DOWNLOAD CV</Link>
+                    <Links to="portfolio" spy={true} smooth={true} offset={0} duration={1000} className='sobre-botao-portfolio' >VEJA MEU PORTFÓLIO</Links>
+                    <Link to="/curriculo" target='_blank' >DOWNLOAD CV</Link>
                     </div>
                 </div>
             </section>

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../views/Home';
 import Contato from '../views/Contato';
 import Curriculo from '../views/Curriculo';
+import Portfolio from '../views/Portfolio';
 
 export default function RoutesApp(){
     return(
@@ -14,6 +15,7 @@ export default function RoutesApp(){
                 <Route path='/contato' element={<Contato />} />
                 <Route path='/contato/curriculo' element={<Curriculo />} />
                 <Route path='/curriculo' element={<Curriculo />} />
+                <Route path='/portfolio' element={<Portfolio />} />
 
                 <Route path='*' element={<Home /> } />
             </Routes>

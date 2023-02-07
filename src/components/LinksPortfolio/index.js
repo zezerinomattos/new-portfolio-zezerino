@@ -94,12 +94,12 @@ function LinksPortfolio(props) {
 
 
   return (
-    <div className="container">
+    <div className='container-portfolio'>
 
       {previewData && (
         <div className="container-mestre">
             <div className='imagem'>
-                <img src={previewData.image} width="250" alt={previewData.title} />
+                <img src={previewData.image} alt={previewData.title} />
             </div>
             <div className="card-informacoes">
               <small>{previewData.site}</small>
@@ -107,7 +107,7 @@ function LinksPortfolio(props) {
               <p>{previewData.description}</p>
               <a href={previewData.link} target="_blank" rel="noopener noreferrer" className="btn-link">Leia Mais...</a>
             </div>
-          </div>
+        </div>
       )}
     </div>
   );
