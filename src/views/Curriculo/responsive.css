@@ -1,0 +1,10 @@
+@media (max-width: 1600px) {
+    div.container div.textos{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    div.container div.curriculo-mestre{
+        width: 90%;
+    }
+}

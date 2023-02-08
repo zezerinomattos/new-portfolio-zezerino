@@ -5,6 +5,7 @@ div.container{
     background-color: #13182B;
     margin: 0;
     padding: 0;
+    padding-top: 40px;
 
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@ div.container{
 }
 
 div.container div.textos{
-    width: 60vw;
+    width: 60%;
     margin-bottom: 20px;
 }
 

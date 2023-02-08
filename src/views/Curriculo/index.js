@@ -2,6 +2,7 @@ import React from 'react';
 
 // My Imports
 import './style.css';
+import './responsive.css';
 import CurriculoFront from '../../assets/Curriculo-Zezerino.pdf';
 
 function Curriculo(){
