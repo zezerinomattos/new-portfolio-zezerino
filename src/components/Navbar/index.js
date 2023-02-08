@@ -36,7 +36,7 @@ export default function Navbar(){
                 <li><Link to='curriculo' target='_blank' className={option === 'curriculo' ? 'optionActived' : null} onClick={() => setOption('curriculo')}>Curriculo</Link></li>               
                 <li><Link to='contato' className={option === 'contato' ? 'optionActived' : null} onClick={() => setOption('contato')} >Contato</Link></li>
 
-                {actived && <li><Link to='#' className={option === 'portfolio' ? 'optionActived' : null} onClick={() => setOption('portfolio')} >Conheça meu portfólio</Link></li> }
+                {actived && <li><Link to='/portfolio' className={option === 'portfolio' ? 'optionActived' : null} onClick={() => setOption('portfolio')} >Conheça meu portfólio</Link></li> }
             </ul>
 
             <ul className='menu-humburguer'>
