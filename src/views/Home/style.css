@@ -275,6 +275,7 @@ section.sobre div.sobre-direita div.sobre-direita-botoes a{
     color: #F25C05;
     padding: 10px 15px;
     border: solid 1px #F25C05;
+    cursor: pointer;
 }
 
 section.sobre div.sobre-direita div.sobre-direita-botoes a:hover{
