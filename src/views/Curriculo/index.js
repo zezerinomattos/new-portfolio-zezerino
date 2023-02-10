@@ -4,10 +4,12 @@ import React from 'react';
 import './style.css';
 import './responsive.css';
 import CurriculoFront from '../../assets/Curriculo-Zezerino.pdf';
+import Navbar from '../../components/Navbar';
 
 function Curriculo(){
     return(
         <div className='container'>
+            <Navbar />
             <div className='textos'>
                 <h1>Olá, seja muito bem vindo!</h1>
                 <p>

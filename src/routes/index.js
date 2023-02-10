@@ -18,6 +18,9 @@ export default function RoutesApp(){
                 <Route path='/portfolio' element={<Portfolio />} />
 
                 <Route path='/portfolio/contato' element={<Contato />} />
+                <Route path='/portfolio/curriculo' element={<Curriculo />} />
+                <Route path='/curriculo/contato' element={<Contato />} />
+                <Route path='/contato/curriculo' element={<Curriculo />} />
 
                 <Route path='*' element={<Home /> } />
             </Routes>
