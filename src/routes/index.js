@@ -9,7 +9,7 @@ import Portfolio from '../views/Portfolio';
 
 export default function RoutesApp(){
     return(
-        <BrowserRouter >
+        <BrowserRouter basename={process.env.PUBLIC_URL} >
             <Routes >
                 <Route path='/' element={ <Home /> } />
                 <Route path='/contato' element={<Contato />} />
