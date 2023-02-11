@@ -23,6 +23,7 @@ export default function RoutesApp(){
                 <Route path='/contato/curriculo' element={<Curriculo />} />
 
                 <Route path='*' element={<Home /> } />
+                
             </Routes>
         </BrowserRouter>
     )
