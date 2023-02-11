@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Link as Links, animateScroll as scroll } from "react-scroll";
+import { Link as Links } from "react-scroll";
 
 // MY IMPORTS
 import './style.css';

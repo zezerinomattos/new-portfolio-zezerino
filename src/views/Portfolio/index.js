@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -50,6 +50,10 @@ export default function Portfolio(){
     const urlLinkMais005 = 'https://github.com/zezerinomattos/ToDo-Mobile-ReactNative';
     const urlLinkMais006 = 'https://github.com/zezerinomattos';
 
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    }, []);
+
     return(
         <>
             <header className='header-portfolio'>
@@ -82,21 +86,21 @@ export default function Portfolio(){
                             <img src={primProjImg001} alt="" />
                         </div>
                         <div className='img002'>
-                            <img src={primProjImg002} alt="" />
+                            <img src={primProjImg002} alt="Projetos" />
                         </div>
                         <div className='img001'>
-                            <img src={primProjImg003} alt="" />
+                            <img src={primProjImg003} alt="Projetos" />
                         </div>
                     </div>
                     <div className='img-inferior'>
                         <div className='img001'>
-                            <img src={primProjImg004} alt="" />
+                            <img src={primProjImg004} alt="Projetos" />
                         </div>
                         <div className='img001 centro'>
-                            <img src={primProjImg005} alt="" />
+                            <img src={primProjImg005} alt="Projetos" />
                         </div>
                         <div className='img001'>
-                            <img src={primProjImg006} alt="" />
+                            <img src={primProjImg006} alt="Projetos" />
                         </div>
                     </div>
 

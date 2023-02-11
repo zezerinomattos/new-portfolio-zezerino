@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Link as Links, animateScroll as scroll } from "react-scroll";
+import { Link as Links } from "react-scroll";
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
