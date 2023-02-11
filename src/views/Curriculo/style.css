@@ -5,11 +5,9 @@ div.container{
     background-color: #13182B;
     margin: 0;
     padding: 0;
-    padding-top: 40px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;   
     align-items: center;
 }
 
@@ -36,7 +34,7 @@ div.container div.textos p{
 
 div.container div.curriculo-mestre{
     width: 60%;
-    height: 650px;
+    height: 600px;
 }
 
 div.container div.curriculo-mestre embed.curriculo{
