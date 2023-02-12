@@ -60,9 +60,9 @@ export default function Login(){
             <Navbar />
             <section className='container'>
                 <div className='contato-dir'>
-                    <h1 className='title'>Entre em contato <br/> com a nossa equipe</h1>
+                    <h1 className='title'>Entre em contato </h1>
                     <span>
-                        Envie uma mensagem ou entre em contato através dos canais <br/> abaixo para tirar dúvidas sobre nossas soluções, relatar <br/> problemas ou dar sugestões. Estamos aqui para ajudar!
+                        Entre em contato através dos canais abaixo para discutir as <br/>suas oportunidades de trabalho, pois tenho interesse em conhecer. <br/>Estou  ansioso para ouvir suas propostas e explorar como posso ajudar <br/> sua empresa com minhas habilidades e experiência. Estou à <br/> disposição para conversar!
                     </span>
 
                     <form className="form" onSubmit={sendEmail}>

@@ -89,25 +89,14 @@ export default function Home(){
                     <h3>Por que me contratar para o seu <br/> próximo projeto?</h3>
                     <span>Front-End Developer | QA</span>
                     <p>
-                        Extremamente motivado, em constante desenvolvimento de minhas
-                        habilidades e crescimento profissional.
-                        Confio em minha habilidade como desenvolvedor de software,
-                        procurando assim estar em constante evolução e acompanhando
-                        atentamente as evoluções da tecnologia no mercado, buscando
-                        sempre estar atualizado para superar novos desafios. <br/>
-                        Com conhecimento em  Front-End, como HTML, CSS, JavaScript, 
-                        React, TypeScript , Bootstrap, Wordpress  e outras. <br/>
-                        Conhecimento em linguagens Back-End como Node.js, Python e Java além de 
-                        conhecimento em bancos de dados como MYSQL, PostgresSQL, MongoDB.
-                        Como developer conheço e desenvolvi alguns projetos usando todo o poder do Firebase, 
-                        também tenho conhecimento na plataforma AWS, Google Coud.                        
+                        Sou um desenvolvedor altamente motivado e comprometido com meu crescimento profissional e desenvolvimento de habilidades. Com uma paixão por tecnologia, estou sempre atento às últimas tendências e evoluções no mercado, buscando superar constantemente meus desafios. <br/>
+
+                        Com uma sólida base em Front-End, incluindo HTML, CSS, JavaScript, React, TypeScript, Bootstrap, Wordpress e mais, além de conhecimento em linguagens Back-End, como Node.js, Python e Java, e experiência em bancos de dados como MYSQL, PostgresSQL e MongoDB. Além disso, tenho experiência em plataformas como Firebase e AWS.                        
                     </p>
                     <p>
-                        Trabalhando ativamente como QA ANALYST TESTER, tenho conhecimento 
-                        em testes funcionais, criação de massas de dados,execução de testes consumindo massa de dados,
-                        análise critica, inserção de dados inválidos e análise de retorno, coleta de evidências de tela,
-                        inserção de dados ao ALM, regressão, processo de automação entre outros. Conhecimento em Celenium e 
-                        Cypress para realizar testes automatizados.
+                        Como QA Analyst Tester, possuo conhecimento em testes funcionais, análise crítica, geração de massas de dados, execução de testes, coleta de evidências e integração com ALM. Além disso, tenho habilidade em utilizar ferramentas como Celenium e Cypress para realizar testes automatizados eficientes. <br/> <br/>
+
+                        Estou ansioso para aplicar minhas habilidades e conhecimento em projetos desafiadores, trabalhando em equipe para alcançar resultados incríveis.
 
                     </p>
                     <div className='sobre-direita-botoes'>
@@ -186,13 +175,7 @@ export default function Home(){
                         <span>Portfólio</span>
                         <h3>"Não há projeto sem disciplina. <br/> Não há disciplina sem inteligência"</h3>
                         <p>
-                            Te convido a conhecer um pouco do meu trabalho através de projetos que trago para ilustrar meu portfólio, aqui vou apresentar apenas alguns, mas tenho mais de 40 projetos em meu repositório, sendo quase 30 deles com status de público. <br/>
-
-                            Aqui vou trazer apenas projetos front-end e full stack, pois preciso apresentar algo visual e por esse motivo não vou trazer projetos back-end. Também não vou trazer layout feitos com o Figma ou AdobeXD, pois a ideia aqui é apresentar projetos codados e não seus protótipos. <br/>
-
-                            Com tudo deixo aqui um LINK que vai lhe direcionar para o meu repositório no GitHub e também deixo aqui na seção um botão o qual ira apresentar mais alguns de meus projetos.<br/> <br/>
-
-                            BEM VINDO!
+                            Seja bem-vindo ao meu portfólio! Aqui, você terá a oportunidade de conhecer um pouco mais sobre o meu trabalho a partir dos projetos selecionados. Embora eu tenha mais de 40 projetos em meu repositório no GitHub, onde quase 30 deles estão disponíveis para visualização pública, nesta seção, eu destacarei apenas projetos front-end e full stack que apresentam uma demonstração concreta do meu trabalho e habilidades. Por favor, note que, para evidenciar o meu trabalho como programador, não incluirei projetos apenas de back-end ou layouts criados com Figma ou AdobeXD. Para ter acesso a um amplo conjunto de meus projetos, clique no link "Leia Mais" do meu repositório no GitHub ou use o botão "Ver mais projetos" disponível na seção.
 
                         </p>
                     </div>

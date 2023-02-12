@@ -68,7 +68,7 @@ export default function Portfolio(){
                 <div className='projeto-prim-container'>
                     <h2>Site de vendas React.js + Firebase + Bootstrap</h2>
                     <p>
-                        Este é um site para venda, onde o usuário pode navegar visualisar detalhes de produto e finalizar a compra diretamente com o vendedor através do seu Whatsapp. <br/> <br/>
+                    Apresento-lhes um e-commerce inovador, que permite aos usuários visualizar com detalhes os produtos disponíveis e finalizar suas compras diretamente com o vendedor através da integração do aplicativo de mensagens WhatsApp. Esse projeto foi desenvolvido com o objetivo de oferecer uma experiência de compra simples e eficiente para os usuários. <br/> <br/>
 
                         Por outro lado o vendedor pode fazer: <br/>
                         [🔑] Autenticação de Usuários <br/>
@@ -117,7 +117,7 @@ export default function Portfolio(){
                 <div className='projeto-seg-container'>
                         <h2>Site Corporativo React.js</h2>
                         <p>
-                            Este é um website corporativo para uma empresa prestadora de serviço, o qual apresenta a empresa e seus serviços de uma forma moderna e altamente criativa. <br /> <br/>
+                            Apresento-lhes um site corporativo impactante para uma empresa prestadora de serviços, que oferece uma apresentação elegante e criativa da empresa e de seus serviços. Com um design moderno e intuitivo, este site é a plataforma ideal para apresentar a empresa ao mundo e atrair novos clientes. Além disso, o site foi construído com a tecnologia avançada React.js, garantindo uma experiência de usuário rápida e fluida. <br /> <br/>
 
                             [📧] Projeto feito em React.js <br />
                             [📝] Layout desenhado e prototipado no Figma <br />
@@ -164,7 +164,7 @@ export default function Portfolio(){
                 <div className='projeto-ter-container'>
                         <h2>Loja Online Wordpress</h2>
                         <p>
-                            Neste projeto eu criei uma loja online completa usando o Wordpress o qual o usuário inicia e finaliza a compra de maneira automatizada sem a necessidade de um atendente ou vendedor. <br /> <br/>
+                            Apresento-lhes um projeto de e-commerce desenvolvido utilizando a plataforma Wordpress, que oferece uma experiência de compra completamente automatizada e sem a necessidade de interação com um vendedor. Com uma interface intuitiva e fácil de usar, este projeto demonstra minhas habilidades em desenvolvimento de lojas online e automação de processos de compra. <br /> <br/>
 
                             [📧] Atendimento de forma automatizada e 24h por dia <br/>
                             [📝] Integração com Mercado Pago <br/>
@@ -210,7 +210,7 @@ export default function Portfolio(){
             <section data-aos='fade-up' className='mais-projetos'>
                 <h2>Veja Mais Projetos</h2>
                 <span>
-                    Te convido a conhecer mais projetos do meu portfólio através deoverview da minha <br/> página no GitHub, para que o site  não fique muito grande e pesado eu vou disponibilizar <br/> esta seção com mais alguns overview de meus projetos. Não vou colocar todos, mas <br/> ao final vou deixar o link que leva direto a raiz do meu repositório aonde verá mais projetos.
+                    Eu convido você a conhecer mais sobre os projetos em meu portfólio. Para evitar que <br/> meu site fique grande e pesado, estou compartilhando com você apenas uma seleção dos meus <br/> projetos no GitHub. Para ver ainda mais projetos, basta clicar no link ao final que o levará <br/> diretamente à raiz de meu repositório. Aqui você encontrará uma visão geral de cada um deles.
                 </span>
                 <div className='mais-overviews'>
                     <LinksPortfolio url={urlLinkMais001}/>
