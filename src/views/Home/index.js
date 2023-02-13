@@ -119,14 +119,14 @@ export default function Home(){
                                 initial={{x: 100}} animate={{x: 0}} transition={{duration: 0.8}}                                  
                             >
                                 <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={75} linguagemA={'JavaScript'} />
-                                <SkilSpeener porcentagem={80} linguagemA={'React.js'} />
-                                <SkilSpeener porcentagem={65} linguagemA={'Firebase'} />
+                                <SkilSpeener porcentagem={70} linguagemA={'JavaScript'} />
+                                <SkilSpeener porcentagem={70} linguagemA={'React.js'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'Firebase'} />
                                 <SkilSpeener porcentagem={50} linguagemA={'Jquery'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'Node.js'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'Wordpress'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'React Native'} />
-                                <SkilSpeener porcentagem={40} linguagemA={'TypeScript'} />
+                                <SkilSpeener porcentagem={30} linguagemA={'TypeScript'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'Bootstrap'} />
                                 <SkilSpeener porcentagem={80} linguagemA={'Styled comp.'} />
                                 <SkilSpeener porcentagem={45} linguagemA={'UI / UX'} />
