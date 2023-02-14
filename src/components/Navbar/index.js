@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Link as Links } from "react-scroll";
@@ -21,6 +21,13 @@ export default function Navbar(){
     function ativaMenuHamburguer(){
         setActived(!actived);
     }
+
+    useEffect(() => {
+        if(actived === true && option === 'sobre' || option === 'skills' || option === 'youtube'){
+            setActived(!actived);
+            setOption('');
+        }
+    }, [option]);
 
     return(
         <nav className='container'>

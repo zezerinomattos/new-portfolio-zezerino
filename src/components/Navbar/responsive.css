@@ -49,7 +49,7 @@ font-family: 'Pacifico', cursive;
 
     nav.container ul.menu-left{
         width: 80%;
-        height: 85.9vh;
+        height: 77vh;
         flex-direction: column;
         background: linear-gradient(rgba(4,157,217) 0%, rgba(54,176,224) 45%, rgba(60, 179, 113, .9) 100%);
         padding-top: .5rem;
