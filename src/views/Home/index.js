@@ -48,6 +48,7 @@ export default function Home(){
     //URL CANAL YOUTUBE
     const dbUrls = [
         "https://www.youtube.com/embed/wfOyNFMs2HI",
+        "https://www.youtube.com/embed/Cy1AMzxTqH8",
         "https://www.youtube.com/embed/iJjrWyyLUGA",
         "https://www.youtube.com/embed/bHfd_2FuN6s", 
         "https://www.youtube.com/embed/KH09oBb8aH8"    
