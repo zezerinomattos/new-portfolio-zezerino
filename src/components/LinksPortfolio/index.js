@@ -6,7 +6,8 @@ import cheerio from 'cheerio';
 import './style.css';
 
 
-const CORS_PROXY = 'https://corsanywhere.herokuapp.com/';
+// const CORS_PROXY = 'https://corsanywhere.herokuapp.com/';
+const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
 
 const getPreviewData = (tags) => {
   const result = tags.reduce((previewData, item) => {
@@ -34,7 +35,6 @@ const getPreviewData = (tags) => {
 
   return Promise.resolve(result);
 }
-
 
 const parseHTML = (html) => {
   const $ = cheerio.load(html);
