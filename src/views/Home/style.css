@@ -3,20 +3,7 @@ CORES
 Azul escuro = #13182B
 Branco = #FFFF
 Azul quem sou = #00082C   #09102B
-div#teste{
-    background-color: aquamarine;
-    position: fixed;
-    top: 0; left: 0;
-    width: 300px;
-    height: 60px;
-    z-index: 10;
-    color: #000;
-    Laranja: #F25C05
-    Laranja: #F27405
-    Azul: #049DD9
-    Verde: #4E7329
-    Cinza: #F2F2EB  #BFBFBF
-}
+
 TIPOGRAFIA
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Open Sans', sans-serif;
