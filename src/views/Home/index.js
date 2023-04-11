@@ -49,16 +49,36 @@ export default function Home(){
     const dbUrls = [
         "https://www.youtube.com/embed/wfOyNFMs2HI",
         "https://www.youtube.com/embed/Cy1AMzxTqH8",
-        "https://www.youtube.com/embed/iJjrWyyLUGA",
+        "https://www.youtube.com/embed/mCljajDDJTk",
         "https://www.youtube.com/embed/bHfd_2FuN6s", 
-        "https://www.youtube.com/embed/KH09oBb8aH8"    
+        "https://www.youtube.com/embed/KH09oBb8aH8",
+        "https://www.youtube.com/embed/VICqoVfTwgw"    
     ];
+
+    const dbUrlsCell = [
+        "https://www.youtube.com/embed/wfOyNFMs2HI",
+        "https://www.youtube.com/embed/Cy1AMzxTqH8",
+        "https://www.youtube.com/embed/mCljajDDJTk"
+    ]
+
+    const [tamanhoTela, setTamanhoTela] = useState(window.innerWidth);
 
     useEffect(() => {
         setWidthCarroselSkill(carroselSkill.current?.scrollWidth - carroselSkill.current?.offsetWidth);
 
         Aos.init({duration: 2000});
         // console.log(carroselSkill.current?.scrollWidth, carroselSkill.current?.offsetWidth)image.png
+
+        //Tamnho da tela para section youtube
+        function handleResize() {
+            setTamanhoTela(window.innerWidth);
+        }
+        //Tamnho da tela para section youtube
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+
     }, []);
 
     return(
@@ -208,8 +228,14 @@ export default function Home(){
                 </div>
 
                 <div className='canal-inferior' data-aos='fade-up'>
-                    {dbUrls.map(item => <PreviewCanalYoutube key={item} url={item} />)}
+                    {
+                        tamanhoTela > 1024 ? dbUrls.map(item => <PreviewCanalYoutube key={item} url={item} />)
+                        :
+                        dbUrlsCell.map(item => <PreviewCanalYoutube key={item} url={item} />)
+                    }
                 </div>
+
+                <a className='btn-veja-mais' href="https://www.youtube.com/@vocenaoeoprimeiro" target='blank' >VEJA MAIS</a>
             </section>
 
             <Footer />
