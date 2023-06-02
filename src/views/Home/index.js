@@ -49,9 +49,9 @@ export default function Home(){
     const dbUrls = [
         "https://www.youtube.com/embed/wfOyNFMs2HI",
         "https://www.youtube.com/embed/Cy1AMzxTqH8",
+        "https://www.youtube.com/embed/GsOBfuYXRa8",
         "https://www.youtube.com/embed/mCljajDDJTk",
         "https://www.youtube.com/embed/bHfd_2FuN6s", 
-        "https://www.youtube.com/embed/KH09oBb8aH8",
         "https://www.youtube.com/embed/VICqoVfTwgw"    
     ];
 
@@ -196,7 +196,7 @@ export default function Home(){
                         <span>Portfólio</span>
                         <h3>"Não há projeto sem disciplina. <br/> Não há disciplina sem inteligência"</h3>
                         <p>
-                            Seja bem-vindo ao meu portfólio! Aqui, você terá a oportunidade de conhecer um pouco mais sobre o meu trabalho a partir dos projetos selecionados. Embora eu tenha mais de 40 projetos em meu repositório no GitHub, onde quase 30 deles estão disponíveis para visualização pública, nesta seção, eu destacarei apenas projetos front-end e full stack que apresentam uma demonstração concreta do meu trabalho e habilidades. Por favor, note que, para evidenciar o meu trabalho como programador, não incluirei projetos apenas de back-end ou layouts criados com Figma ou AdobeXD. Para ter acesso a um amplo conjunto de meus projetos, clique no link "Leia Mais" do meu repositório no GitHub ou use o botão "Ver mais projetos" disponível na seção.
+                            Seja bem-vindo ao meu portfólio! Aqui, você terá a oportunidade de conhecer um pouco mais sobre o meu trabalho a partir dos projetos selecionados. Embora eu tenha mais de 50 projetos em meu repositório no GitHub, onde mais de 30 deles estão disponíveis para visualização pública, nesta seção, eu destacarei apenas projetos front-end e full stack que apresentam uma demonstração concreta do meu trabalho e habilidades. Por favor, note que, para evidenciar o meu trabalho como programador, não incluirei projetos apenas de back-end ou layouts criados com Figma ou AdobeXD. Para ter acesso a um amplo conjunto de meus projetos, clique no link "Leia Mais" do meu repositório no GitHub ou use o botão "Ver mais projetos" disponível na seção.
 
                         </p>
                     </div>

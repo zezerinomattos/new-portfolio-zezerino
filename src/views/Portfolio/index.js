@@ -10,6 +10,9 @@ import LinksPortfolio from '../../components/LinksPortfolio';
 import Footer from '../../components/Footer';
 
 // MY IMAGES PRIMEIRO PROJETO
+import videoPrimeiroprojeto from '../../assets/portfolioVideo.mp4';
+
+// MY IMAGES SEGUNDO PROJETO
 import primProjImg001 from '../../assets/portfolio-img001.png';
 import primProjImg002 from '../../assets/portfolio-img002.png';
 import primProjImg003 from '../../assets/portfolio-img003.png';
@@ -17,7 +20,7 @@ import primProjImg004 from '../../assets/portfolio-img004.png';
 import primProjImg005 from '../../assets/portfolio-img005.png';
 import primProjImg006 from '../../assets/portfolio-img006.png';
 
-// MY IMAGES PRIMEIRO PROJETO
+// MY IMAGES TERCEIRO PROJETO
 import segProjImg001 from '../../assets/portfolio-seg001.png';
 import segProjImg002 from '../../assets/portfolio-seg002.png';
 import segProjImg003 from '../../assets/portfolio-seg003.png';
@@ -25,13 +28,14 @@ import segProjImg004 from '../../assets/portfolio-seg004.png';
 import segProjImg005 from '../../assets/portfolio-seg005.png';
 import segProjImg006 from '../../assets/portfolio-seg006.png';
 
-// MY IMAGES PRIMEIRO PROJETO
+// MY IMAGES QUARTO PROJETO
 import terProjImg001 from '../../assets/portfolio-terc001.png';
 import terProjImg002 from '../../assets/portfolio-terc002.png';
 import terProjImg003 from '../../assets/portfolio-terc003.png';
 import terProjImg004 from '../../assets/portfolio-terc004.png';
 import terProjImg005 from '../../assets/portfolio-terc005.png';
 import terProjImg006 from '../../assets/portfolio-terc006.png';
+
 
 export default function Portfolio(){
 
@@ -42,6 +46,8 @@ export default function Portfolio(){
 
     const urlLinkPortfolio003 = 'https://nandafashionn.com/';
 
+    const urlLinkPortfolio004 = 'https://github.com/zezerinomattos/digital_waiter-projeto-Full-Stack';
+
     // URL MAIS 
     const urlLinkMais001 = 'https://github.com/zezerinomattos/todo-projeto-fullstack-node-react';
     const urlLinkMais002 = 'https://github.com/zezerinomattos/ocornnerconsultoria';
@@ -49,6 +55,7 @@ export default function Portfolio(){
     const urlLinkMais004 = 'https://github.com/zezerinomattos/Sistema-Controle-Vendas-Em-Java';
     const urlLinkMais005 = 'https://github.com/zezerinomattos/ToDo-Mobile-ReactNative';
     const urlLinkMais006 = 'https://github.com/zezerinomattos';
+    const urlLinkMais007 = 'https://github.com/zezerinomattos/Lingobotix_app';
 
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -63,6 +70,56 @@ export default function Portfolio(){
                     <span>Preparei esta seção com alguns de meus projetos.</span>
                 </div>
             </header>
+
+            <section data-aos='fade-up' className='primeiro-projeto'>
+                <div className='projeto-prim-container'>
+                    <h2>Digital Waiter projeto Full-Stack Node - Next.js - React Native </h2>
+                    <p>
+                        O Digital Waiter é um projeto completo, desenvolvido com o objetivo de proporcionar uma melhor gestão de pedidos em restaurantes. Com um aplicativo móvel para garçons, um sistema web para a cozinha e caixa, o projeto permite que os pedidos dos clientes sejam registrados de forma ágil e precisa, melhorando a eficiência do estabelecimento. <br/> <br/>
+
+                        O Digital Waiter oferece diversas funcionalidades para uma melhor gestão dos pedidos em restaurantes, como:<br/><br/>
+
+                        Registro de pedidos pelo garçom via aplicativo móvel <br/>
+                        Integração automática com o sistema web para a cozinha e caixa<br/>
+                        Controle dos pedidos em aberto e finalizados<br/>
+                        Custo mais baixo para o estabelecimento<br/>
+                        Agilidade e precisão na gestão de pedidos<br/>
+                        Cadastro de usuário<br/>
+                        Cadastro de Produtos<br/>
+                        Loging<br/>
+                        Segurança criptografada<br/>
+                        Entre outras<br/>
+                    </p>
+
+                    <p>
+                        O projeto foi desenvolvido utilizando tecnologias modernas e robustas, com o objetivo de garantir a qualidade e desempenho:<br/><br/>
+
+                        Node.js<br/>
+                        TypeScript<br/>
+                        PostgreSQL<br/>
+                        Next.js<br/>
+                        React.js<br/>
+                        Sass<br/>
+                        React Native<br/>
+                    </p>
+                
+                    <div className='img-superior'>
+                        <div className='video-digital-waiter'>
+                            <video controls>
+                                <source src={videoPrimeiroprojeto} type="video/mp4" />
+                                Seu navegador não suporta a exibição de vídeos.
+                            </video>
+                        </div>
+                    </div>
+
+                    <div className='preview-git'>
+                        <span>
+                            Convido você a conhecer o código clicando no link (Leia Mais...) do Overview do projeto no meu repositório remoto GitHub.
+                        </span>
+                        <LinksPortfolio url={urlLinkPortfolio004}/>
+                    </div>
+                </div>
+            </section>
 
             <section data-aos='fade-up' className='primeiro-projeto'>
                 <div className='projeto-prim-container'>
@@ -213,6 +270,7 @@ export default function Portfolio(){
                     Eu convido você a conhecer mais sobre os projetos em meu portfólio. Para evitar que <br/> meu site fique grande e pesado, estou compartilhando com você apenas uma seleção dos meus <br/> projetos no GitHub. Para ver ainda mais projetos, basta clicar no link ao final que o levará <br/> diretamente à raiz de meu repositório. Aqui você encontrará uma visão geral de cada um deles.
                 </span>
                 <div className='mais-overviews'>
+                    <LinksPortfolio url={urlLinkMais007}/>
                     <LinksPortfolio url={urlLinkMais001}/>
                     <LinksPortfolio url={urlLinkMais005}/>
                     <LinksPortfolio url={urlLinkMais002}/>

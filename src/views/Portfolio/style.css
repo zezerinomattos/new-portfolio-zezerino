@@ -85,6 +85,32 @@ div.img-superior{
     margin-bottom: 40px;   
 }
 
+/*-- VIDEO DO PROJETO DIGITAL WAITER --*/
+div.img-superior div.video-digital-waiter{
+    margin-top: 60px;
+    max-width: 900px;
+    position: relative;
+}
+
+div.img-superior div.video-digital-waiter::before{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    bottom: 20px;
+    width: 50%;
+    background-color: rgb(73, 72, 72);
+    box-shadow: 0px 15px 10px rgb(59, 58, 58);
+    transform: rotate(3deg);
+    content: "";
+    z-index: -1;
+}
+
+div.img-superior div.video-digital-waiter video{
+    max-width: 100%;
+}
+
+/*---------------------------------------------*/
+
 div.img-inferior{
     margin-top: 40px;
 }
