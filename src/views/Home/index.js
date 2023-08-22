@@ -58,7 +58,7 @@ export default function Home(){
     const dbUrlsCell = [
         "https://www.youtube.com/embed/wfOyNFMs2HI",
         "https://www.youtube.com/embed/Cy1AMzxTqH8",
-        "https://www.youtube.com/embed/mCljajDDJTk"
+        "https://www.youtube.com/embed/GsOBfuYXRa8"
     ]
 
     const [tamanhoTela, setTamanhoTela] = useState(window.innerWidth);
