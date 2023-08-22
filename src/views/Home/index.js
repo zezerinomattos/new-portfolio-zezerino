@@ -140,21 +140,23 @@ export default function Home(){
                                 initial={{x: 100}} animate={{x: 0}} transition={{duration: 0.8}}                                  
                             >
                                 <SkilSpeener porcentagem={90} linguagemA={'html'} linguagemB={'css'} className='itemSkill'/>
-                                <SkilSpeener porcentagem={70} linguagemA={'JavaScript'} />
-                                <SkilSpeener porcentagem={70} linguagemA={'React.js'} />
-                                <SkilSpeener porcentagem={60} linguagemA={'Firebase'} />
+                                <SkilSpeener porcentagem={80} linguagemA={'JavaScript'} />
                                 <SkilSpeener porcentagem={50} linguagemA={'Jquery'} />
-                                <SkilSpeener porcentagem={40} linguagemA={'Node.js'} />
-                                <SkilSpeener porcentagem={60} linguagemA={'Wordpress'} />
+                                <SkilSpeener porcentagem={75} linguagemA={'React.js'} />
+                                <SkilSpeener porcentagem={70} linguagemA={'Next.js'} />
+                                <SkilSpeener porcentagem={70} linguagemA={'TypeScript'} />                                                       
+                                <SkilSpeener porcentagem={70} linguagemA={'Node.js'} />
+                                <SkilSpeener porcentagem={80} linguagemA={'Sass / CSS'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'React Native'} />
-                                <SkilSpeener porcentagem={30} linguagemA={'TypeScript'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'Firebase'} />                               
                                 <SkilSpeener porcentagem={60} linguagemA={'Bootstrap'} />
                                 <SkilSpeener porcentagem={80} linguagemA={'Styled comp.'} />
                                 <SkilSpeener porcentagem={45} linguagemA={'UI / UX'} />
+                                <SkilSpeener porcentagem={60} linguagemA={'Wordpress'} />
                                 <SkilSpeener porcentagem={30} linguagemA={'Java'} />
                                 <SkilSpeener porcentagem={35} linguagemA={'Python'} />
                                 <SkilSpeener porcentagem={65} linguagemA={'Celenium'} />
-                                <SkilSpeener porcentagem={50} linguagemA={'Cypress'} />
+                                <SkilSpeener porcentagem={40} linguagemA={'Cypress'} />
                                 <SkilSpeener porcentagem={50} linguagemA={'MongoDB'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'MYSQL'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'POSTGRESQL'} />
