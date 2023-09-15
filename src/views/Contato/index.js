@@ -42,7 +42,7 @@ export default function Login(){
             telephone: telephone
         }
 
-        emailjs.send('service_r27x4eu', 'template_7heuyse', templateParams, '0IR8ySjctKCPQ5K43')
+        emailjs.send('service_wzppolf', 'template_4mc7rls', templateParams, 'kbRxFYzQFgqTaj2is')
         .then((response) => {
             // console.log('EMAIL EVIADO', response.status, response.text);
             setName('');
