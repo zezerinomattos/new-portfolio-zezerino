@@ -115,7 +115,7 @@ export default function Home(){
                         Com uma sólida base em Front-End, incluindo HTML, CSS, JavaScript, React, TypeScript, Bootstrap, Wordpress e mais, além de conhecimento em linguagens Back-End, como Node.js, Python e Java, e experiência em bancos de dados como MYSQL, PostgresSQL e MongoDB. Além disso, tenho experiência em plataformas como Firebase e AWS.                        
                     </p>
                     <p>
-                        Como QA Analyst Tester, possuo conhecimento em testes funcionais, análise crítica, geração de massas de dados, execução de testes, coleta de evidências e integração com ALM e outros. Além disso, tenho habilidade em utilizar ferramentas como Celenium e Cypress para realizar testes automatizados eficientes. <br/> <br/>
+                        Como QA Analyst Tester, possuo conhecimento em testes funcionais, análise crítica, geração de massas de dados, execução de testes, Regressão, coleta de evidências e integração com ALM e outros. Além disso, tenho habilidade em utilizar ferramentas como Celenium e Cypress para realizar testes automatizados eficientes. <br/> <br/>
 
                         Estou ansioso para aplicar minhas habilidades e conhecimento em projetos desafiadores, trabalhando em equipe para alcançar resultados incríveis.
 
@@ -144,7 +144,7 @@ export default function Home(){
                                 <SkilSpeener porcentagem={50} linguagemA={'Jquery'} />
                                 <SkilSpeener porcentagem={75} linguagemA={'React.js'} />
                                 <SkilSpeener porcentagem={70} linguagemA={'Next.js'} />
-                                <SkilSpeener porcentagem={70} linguagemA={'TypeScript'} />                                                       
+                                <SkilSpeener porcentagem={80} linguagemA={'TypeScript'} />                                                       
                                 <SkilSpeener porcentagem={70} linguagemA={'Node.js'} />
                                 <SkilSpeener porcentagem={80} linguagemA={'Sass / CSS'} />
                                 <SkilSpeener porcentagem={40} linguagemA={'React Native'} />
@@ -155,8 +155,8 @@ export default function Home(){
                                 <SkilSpeener porcentagem={60} linguagemA={'Wordpress'} />
                                 <SkilSpeener porcentagem={30} linguagemA={'Java'} />
                                 <SkilSpeener porcentagem={35} linguagemA={'Python'} />
-                                <SkilSpeener porcentagem={65} linguagemA={'Celenium'} />
-                                <SkilSpeener porcentagem={40} linguagemA={'Cypress'} />
+                                <SkilSpeener porcentagem={70} linguagemA={'Cypress'} />
+                                <SkilSpeener porcentagem={65} linguagemA={'Celenium'} />     
                                 <SkilSpeener porcentagem={50} linguagemA={'MongoDB'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'MYSQL'} />
                                 <SkilSpeener porcentagem={60} linguagemA={'POSTGRESQL'} />
