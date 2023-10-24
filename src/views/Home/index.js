@@ -88,7 +88,7 @@ export default function Home(){
                 <div className='header-inf-mestre'>
                     <div className='textos'>
                         <h1>Zezerino Mattos</h1>
-                        <h2>Front-End Developer</h2>
+                        <h2>Developer & QA test analyst</h2>
 
                         <Link to="/portfolio" >Conheça meu portfólio profissional</Link>
                     </div>
@@ -115,7 +115,7 @@ export default function Home(){
                         Com uma sólida base em Front-End, incluindo HTML, CSS, JavaScript, React, TypeScript, Bootstrap, Wordpress e mais, além de conhecimento em linguagens Back-End, como Node.js, Python e Java, e experiência em bancos de dados como MYSQL, PostgresSQL e MongoDB. Além disso, tenho experiência em plataformas como Firebase e AWS.                        
                     </p>
                     <p>
-                        Como QA Analyst Tester, possuo conhecimento em testes funcionais, análise crítica, geração de massas de dados, execução de testes, coleta de evidências e integração com ALM. Além disso, tenho habilidade em utilizar ferramentas como Celenium e Cypress para realizar testes automatizados eficientes. <br/> <br/>
+                        Como QA Analyst Tester, possuo conhecimento em testes funcionais, análise crítica, geração de massas de dados, execução de testes, coleta de evidências e integração com ALM e outros. Além disso, tenho habilidade em utilizar ferramentas como Celenium e Cypress para realizar testes automatizados eficientes. <br/> <br/>
 
                         Estou ansioso para aplicar minhas habilidades e conhecimento em projetos desafiadores, trabalhando em equipe para alcançar resultados incríveis.
 
