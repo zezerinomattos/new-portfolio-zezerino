@@ -42,7 +42,7 @@ Tenho um dom√≠nio personalizado associado a este projeto, tornando-o mais acess√
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-React.js
+React.js </br>
 CSS
 
 ## Como Contribuir
